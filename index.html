@@ -9,7 +9,11 @@
     <div id="imagens">
 
      
-    </div>   <button id="btn" type="button">Jogar</button>
+    </div>   
+    <div class="btnm">
+    <button id="btnx" type="button">voltar</button>
+    <button id="btn" type="button">avançar</button>
+    </div>
     <script src="main.js"></script>
     <style>
         *{
@@ -18,7 +22,7 @@
             box-sizing: border-box;
         }
 
-        body{
+        body {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -30,13 +34,32 @@
             margin-bottom: 2rem;
             position: absolute  ;
         }
+        #imagens{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
         button{
-            position: absolute;
+            margin-top: 15rem;
             border: none;
             background-color: orange;
             color: blue;
             border-radius: 5rem;
             cursor: pointer;
+            width: 5rem;
+            align-items: center; 
+            margin: 1rem;
+            margin-top: 6rem;
+            height: 5rem;
+            font-size: 1rem;
+            width: 5rem;
+        }
+        .btnm{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5rem;
         }
     </style>
 </body>
